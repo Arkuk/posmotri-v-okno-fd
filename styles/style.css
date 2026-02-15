@@ -101,6 +101,7 @@ ol {
 
 .result__video {
   width: 100%;
+  height: 100%;
   object-fit: cover;
   object-position: center;
 }
@@ -108,7 +109,7 @@ ol {
 .content__list {
   display: flex;
   flex-direction: column;
-  gap: 21px;
+  gap: 30px;
 }
 
 .content__video-card {
@@ -128,6 +129,7 @@ ol {
   display: flex;
   flex-direction: column;
   min-width: 0;
+  gap: 6px;
 }
 
 .search-form__fieldset {
@@ -173,7 +175,8 @@ ol {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  line-height: 100%;
+  line-height: 90%;
+  max-width: 194px
 }
 
 .content__video-card-description {
@@ -318,5 +321,5 @@ ol {
 }
 
 .content__list-item {
-  padding: 3px;
+  padding: 0 3px;
 }
